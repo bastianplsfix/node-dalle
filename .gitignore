@@ -1,0 +1,14 @@
+# exclude everything
+img/edit/*
+img/generate/*
+img/import/*
+
+# exception to the rule
+!img/edit/.gitkeep
+!img/generate/.gitkeep
+!img/import/.gitkeep
+
+##
+node_modules/
+.env
+.DS_STORE
